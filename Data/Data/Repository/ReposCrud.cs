@@ -11,7 +11,7 @@ namespace Data.Repository
     public delegate List<BaseModel> OperacaoListar();
     class ReposCrud
     {
-        protected List<BaseModel> lista = new List<BaseModel>();
+        public List<BaseModel> Lista { get; set; }
         protected Operacao opCadastrar;
         protected OperacaoListar opListar;
 

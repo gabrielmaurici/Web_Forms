@@ -11,16 +11,17 @@ namespace Data.Repository
     {
         public RepositoryProduto()
         {
+            this.Lista = new List<BaseModel>();
             this.opCadastrar = CadProduto;
             this.opListar = ListarProdutos;
         }
         private void CadProduto(BaseModel produto)
         {
-            lista.Add(produto);
+            Lista.Add(produto);
         }
         private List<BaseModel> ListarProdutos()
         {
-            return lista;
+            return Lista;
         }
     }
 }
