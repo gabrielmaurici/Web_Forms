@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Repository
+namespace Data.Models
 {
-    class RepositoryCategoria
+    class BaseModel
     {
-
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }

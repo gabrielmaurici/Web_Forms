@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    class RepositoryCategoria
+    class RepositoryProduto
     {
-
     }
 }

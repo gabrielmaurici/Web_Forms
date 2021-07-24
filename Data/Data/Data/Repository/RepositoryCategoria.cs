@@ -8,6 +8,5 @@ namespace Data.Repository
 {
     class RepositoryCategoria
     {
-
     }
 }
