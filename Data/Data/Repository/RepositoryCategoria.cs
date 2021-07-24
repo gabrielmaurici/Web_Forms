@@ -11,6 +11,7 @@ namespace Data.Repository
     {
         public RepositoryCategoria()
         {
+            this.Lista = new List<BaseModel>();
             this.opCadastrar = CadCategoria;
             this.opListar = ListarCategorias;
         }
