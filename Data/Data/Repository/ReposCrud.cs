@@ -7,18 +7,19 @@ using Data.Models;
 
 namespace Data.Repository
 {
-    public delegate void Operacao();
+    public delegate void Operacao(BaseModel model);
+    public delegate List<BaseModel> OperacaoListar();
     class ReposCrud
     {
         protected List<BaseModel> lista = new List<BaseModel>();
         protected Operacao opCadastrar;
-        protected Operacao opListar;
+        protected OperacaoListar opListar;
 
-        public void Cadastrar()
+        public void Cadastrar(BaseModel model)
         {
-            opCadastrar();
+            opCadastrar(model);
         }
-        puvlic void Listar()
+        public List<BaseModel> Listar()
         {
             opListar();
         }

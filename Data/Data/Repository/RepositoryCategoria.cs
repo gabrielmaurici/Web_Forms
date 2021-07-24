@@ -7,11 +7,20 @@ using Data.Models;
 
 namespace Data.Repository
 {
-    class RepositoryCategoria
+    class RepositoryCategoria : ReposCrud
     {
         public RepositoryCategoria()
         {
-            
+            this.opCadastrar = CadCategoria;
+            this.opListar = ListarCategoria;
+        }
+        private void CadCategoria(BaseModel categoria)
+        {
+            lista.Add(categoria);
+        }
+        private List<BaseModel> ListarCategoria()
+        {
+            return lista;
         }
     }
 }
