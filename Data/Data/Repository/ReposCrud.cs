@@ -21,7 +21,7 @@ namespace Data.Repository
         }
         public List<BaseModel> Listar()
         {
-            opListar();
+            return opListar();
         }
     }
 }

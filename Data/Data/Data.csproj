@@ -45,6 +45,7 @@
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ReposCrud.cs" />
     <Compile Include="Repository\RepositoryCategoria.cs" />
     <Compile Include="Repository\RepositoryProduto.cs" />
   </ItemGroup>
