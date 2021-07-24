@@ -16,11 +16,11 @@ namespace Data.Repository
         }
         private void CadCategoria(BaseModel categoria)
         {
-            lista.Add(categoria);
+            Lista.Add(categoria);
         }
         private List<BaseModel> ListarCategorias()
         {
-            return lista;
+            return Lista;
         }
     }
 }
