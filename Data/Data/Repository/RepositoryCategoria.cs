@@ -12,13 +12,13 @@ namespace Data.Repository
         public RepositoryCategoria()
         {
             this.opCadastrar = CadCategoria;
-            this.opListar = ListarCategoria;
+            this.opListar = ListarCategorias;
         }
         private void CadCategoria(BaseModel categoria)
         {
             lista.Add(categoria);
         }
-        private List<BaseModel> ListarCategoria()
+        private List<BaseModel> ListarCategorias()
         {
             return lista;
         }
