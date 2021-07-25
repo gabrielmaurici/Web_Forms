@@ -7,7 +7,7 @@ using Data.Models;
 
 namespace Data.Repository
 {
-    class RepositoryProduto : ReposCrud
+    public class RepositoryProduto : ReposCrud
     {
         public RepositoryProduto()
         {

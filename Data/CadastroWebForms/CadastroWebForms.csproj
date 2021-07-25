@@ -215,6 +215,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{19c79292-a4a8-4063-9173-6f3bdaa6e94b}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

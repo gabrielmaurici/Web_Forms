@@ -9,7 +9,7 @@ namespace Data.Repository
 {
     public delegate void Operacao(BaseModel model);
     public delegate List<BaseModel> OperacaoListar();
-    class ReposCrud
+    public class ReposCrud
     {
         public List<BaseModel> Lista { get; set; }
         protected Operacao opCadastrar;

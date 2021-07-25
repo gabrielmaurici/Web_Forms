@@ -42,21 +42,84 @@ namespace CadastroWebForms
         protected global::System.Web.UI.WebControls.TextBox tbNome;
 
         /// <summary>
-        /// Controle Label1.
+        /// Controle lbValor.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lbValor;
 
         /// <summary>
-        /// Controle TextBox1.
+        /// Controle tbValor.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox tbValor;
+
+        /// <summary>
+        /// Controle lbCategoria.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbCategoria;
+
+        /// <summary>
+        /// Controle tbNomeCategoria.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbNomeCategoria;
+
+        /// <summary>
+        /// Controle lbDescCategoria.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbDescCategoria;
+
+        /// <summary>
+        /// Controle tbDescCategoria.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbDescCategoria;
+
+        /// <summary>
+        /// Controle btSalvar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btSalvar;
+
+        /// <summary>
+        /// Controle btLimpar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btLimpar;
+
+        /// <summary>
+        /// Controle gvCadastros.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvCadastros;
     }
 }

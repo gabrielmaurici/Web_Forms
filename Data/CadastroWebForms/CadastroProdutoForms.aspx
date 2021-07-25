@@ -13,9 +13,30 @@
             <asp:Label ID="lbNome" runat="server" Text="Nome"></asp:Label>
             <asp:TextBox ID="tbNome" runat="server"></asp:TextBox>
             <br/>
+            <br/>
+            <asp:Label ID="lbValor" runat="server" Text="Valor"></asp:Label>
+            <asp:TextBox ID="tbValor" runat="server"></asp:TextBox>
+            <br/>
+            <br/>
+            <asp:Label ID="lbCategoria" runat="server" Text="Categoria"></asp:Label>
+            <asp:TextBox ID="tbNomeCategoria" runat="server"></asp:TextBox>
+            <br/>
+            <br/>
+            <asp:Label ID="lbDescCategoria" runat="server" Text="Descrição Categoria"></asp:Label>
+            <asp:TextBox ID="tbDescCategoria" runat="server"></asp:TextBox>
+
             <br />
-             <asp:Label ID="Label1" runat="server" Text="Nome"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="btSalvar" runat="server" Text="Salvar" OnClick="btSalvar_Click" Width="135px" />
+            <asp:Button ID="btLimpar" runat="server" Text="Limpar" Width="135px" />
+
+        
+
+            <asp:GridView ID="gvCadastros" runat="server" Height="16px" style="margin-left: 0px" Width="257px">
+            </asp:GridView>
+
+        
+
         </div>
     </form>
 </body>
