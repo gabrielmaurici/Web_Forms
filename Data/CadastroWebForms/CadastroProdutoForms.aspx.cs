@@ -24,6 +24,7 @@ namespace CadastroWebForms
             }
 
             RepoProduto = (RepositoryProduto)Session["RepoProduto"];
+            CarregaDados();
         }
 
         protected void btSalvar_Click(object sender, EventArgs e)
@@ -31,6 +32,7 @@ namespace CadastroWebForms
             Produto produto = new Produto();
             Categoria categoria = new Categoria();
 
+            produto.Id = RepoProduto.Lista.Count + 1;
             produto.Nome = tbNome.Text;
             produto.Valor = Convert.ToDecimal(tbValor.Text);
 
@@ -40,6 +42,8 @@ namespace CadastroWebForms
             produto.Categoria = categoria;
 
             this.RepoProduto.Cadastrar(produto);
+            
+            CarregaDados();
         }
 
         protected void btLimpar_Click(object sender, EventArgs e)
@@ -49,6 +53,8 @@ namespace CadastroWebForms
 
             tbNomeCategoria.Text = String.Empty;
             tbDescCategoria.Text = String.Empty;
+
+            CarregaDados();
         }
         public void CarregaDados()
         {
