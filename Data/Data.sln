@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{19C79292-A4A8-4063-9173-6F3BDAA6E94B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroWeb", "CadastroWeb\CadastroWeb.csproj", "{70A46C3F-1FE6-42A1-85DE-24A66B116BB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroWebForms", "CadastroWebForms\CadastroWebForms.csproj", "{6377485E-F3B4-4E47-863A-6966DE39AADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{19C79292-A4A8-4063-9173-6F3BDAA6E94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19C79292-A4A8-4063-9173-6F3BDAA6E94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19C79292-A4A8-4063-9173-6F3BDAA6E94B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70A46C3F-1FE6-42A1-85DE-24A66B116BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70A46C3F-1FE6-42A1-85DE-24A66B116BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70A46C3F-1FE6-42A1-85DE-24A66B116BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70A46C3F-1FE6-42A1-85DE-24A66B116BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6377485E-F3B4-4E47-863A-6966DE39AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6377485E-F3B4-4E47-863A-6966DE39AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6377485E-F3B4-4E47-863A-6966DE39AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6377485E-F3B4-4E47-863A-6966DE39AADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
