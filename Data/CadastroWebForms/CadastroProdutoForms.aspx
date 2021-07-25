@@ -28,7 +28,7 @@
             <br />
             <br />
             <asp:Button ID="btSalvar" runat="server" Text="Salvar" OnClick="btSalvar_Click" Width="135px" />
-            <asp:Button ID="btLimpar" runat="server" Text="Limpar" Width="135px" />
+            <asp:Button ID="btLimpar" runat="server" Text="Limpar" Width="135px" OnClick="btLimpar_Click" />
 
         
 

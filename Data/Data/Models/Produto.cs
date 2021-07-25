@@ -9,6 +9,6 @@ namespace Data.Models
     public class Produto : BaseModel
     {
         public decimal Valor { get; set; }
-       // public Categoria Categoria { get; set; }
+        public Categoria Categoria { get; set; }
     }
 }

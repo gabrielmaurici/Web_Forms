@@ -31,5 +31,14 @@ namespace CadastroWebForms
             categoria.Nome = tbNomeCategoria.Text;
             categoria.Descricao = tbDescCategoria.Text;
         }
+
+        protected void btLimpar_Click(object sender, EventArgs e)
+        {
+            tbNome.Text = String.Empty;
+            tbValor.Text = String.Empty;
+
+            tbNomeCategoria.Text = String.Empty;
+            tbDescCategoria.Text = String.Empty;
+        }
     }
 }
