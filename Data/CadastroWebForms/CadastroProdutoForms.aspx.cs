@@ -22,8 +22,14 @@ namespace CadastroWebForms
         protected void btSalvar_Click(object sender, EventArgs e)
         {
             Produto produto = new Produto();
-            //fazer cadastro
+            Categoria categoria = new Categoria();
 
+            //fazer cadastro
+            produto.Nome = tbNome.Text;
+            produto.Valor = Convert.ToDecimal(tbValor.Text);
+
+            categoria.Nome = tbNomeCategoria.Text;
+            categoria.Descricao = tbDescCategoria.Text;
         }
     }
 }
