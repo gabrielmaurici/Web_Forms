@@ -16,7 +16,13 @@ namespace CadastroWebForms
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Criar lista Session
+            RepoProduto = new RepositoryProduto();
+
+            if(Session["RepoProduto"] == null)
+            {
+                Session.Add("RepoProduto", new RepositoryProduto());
+            }
+            RepoProduto = (RepositoryProduto)Session["RepoProduto"];
         }
 
         protected void btSalvar_Click(object sender, EventArgs e)
